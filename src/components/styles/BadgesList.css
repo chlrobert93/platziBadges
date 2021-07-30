@@ -17,3 +17,37 @@
     width: 80px;
     height: 80px;
   }
+
+
+  .container{
+    border: 1px solid transparent;
+    margin-bottom: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
+    padding: 8px;
+    border-radius: 5px;
+    display: flex;
+    background: linear-gradient(to left, #00f260, #0575e6);
+  }
+
+  .avatar{
+    border-radius: 50%;
+  }
+
+  .container__info{
+    margin-left: 20px;
+  }
+
+  .name{
+    font-weight: 800;
+  }
+
+  .container__info p{
+    margin:0;
+
+  }
+
+  .twitter{
+    /*color:rgb(29 161 242);*/
+    color:blue;
+
+  }
