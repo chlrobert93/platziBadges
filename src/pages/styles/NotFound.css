@@ -1,0 +1,33 @@
+.robot {
+    height:90vh;
+    
+  min-height: calc(100vh - 60px);
+    background-image: linear-gradient(
+      to right bottom, 
+    rgba(26, 167, 223, 0.8),
+    rgba(129, 205, 224, 0.8)), 
+     url('../../images/robot-cuate.svg');
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    position:relative;
+  }
+  
+  .robot__text {
+    font-family: 'Anton', sans-serif;
+    font-weight:500; /*peso de la fuente*/
+    line-height:1.7;
+    text-transform:uppercase;
+    font-size: 2rem;
+    text-align: left;
+    position: absolute;
+    top: 40%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+  
+  .root__header{
+    font-size: 4rem;
+  }
+ 
