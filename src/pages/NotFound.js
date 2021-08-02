@@ -2,7 +2,7 @@ import React from 'react';
 import './styles/NotFound.css'
 import { Link } from 'react-router-dom';
 
-import robotCuate from '../images/robot-cuate.svg';
+
 
 function NotFound() {
     return (
