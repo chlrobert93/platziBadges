@@ -19,7 +19,10 @@
   }
 
 
-  .container{
+
+
+
+  .BadList__container{
     border: 1px solid transparent;
     margin-bottom: 8px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
@@ -29,15 +32,15 @@
     background: linear-gradient(to left, #00f260, #0575e6);
   }
 
-  .avatar{
+  .BadList__avatar{
     border-radius: 50%;
   }
 
-  .container__info{
+  .BadList__container__info{
     margin-left: 20px;
   }
 
-  .name{
+  .BadList__name{
     font-weight: 800;
   }
 

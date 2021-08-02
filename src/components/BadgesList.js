@@ -11,12 +11,12 @@ class BadgesList extends React.Component{
             <ul className="list-unstyled">
                {this.props.badges.map((badge) => {
                  return(
-                    <li className="container" key={badge.id}>
+                    <li className="BadList__container" key={badge.id}>
                         <div>
-                            <img className="avatar" src={badge.avatarUrl} alt=""/>
+                            <img className="BadList__avatar" src={badge.avatarUrl} alt=""/>
                         </div>
-                        <div className="container__info">
-                          <p className="name">
+                        <div className="BadList__container__info">
+                          <p className="BadList__name">
                               <FontAwesomeIcon icon={faUserTie} /> {badge.firstName} {badge.lastName}</p> 
                           <p  className="twitter">
                               <FontAwesomeIcon icon={faTwitter} /> @{badge.twitter}
