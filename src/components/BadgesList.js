@@ -26,7 +26,7 @@ class BadgesList extends React.Component{
                  return(
                     <li className="BadList__container" key={badge.id}>
                         <div>
-                        <Gravatar
+                       <Gravatar
                                 className="BadgesListItem__avatar"
                                 email={badge.email}
                                 alt="Avatar"
