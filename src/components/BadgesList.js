@@ -3,6 +3,7 @@ import './styles/BadgesList.css';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faUserTie} from '@fortawesome/free-solid-svg-icons';
 import {faTwitter} from '@fortawesome/free-brands-svg-icons';
+import Gravatar from './Gravatar';
 
 import {Link} from 'react-router-dom';
 
@@ -25,7 +26,11 @@ class BadgesList extends React.Component{
                  return(
                     <li className="BadList__container" key={badge.id}>
                         <div>
-                            <img className="BadList__avatar" src={badge.avatarUrl} alt=""/>
+                        <Gravatar
+                                className="BadgesListItem__avatar"
+                                email={badge.email}
+                                alt="Avatar"
+                         />              
                         </div>
                         <div className="BadList__container__info">
                           <p className="BadList__name">

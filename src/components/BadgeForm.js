@@ -22,24 +22,24 @@ class BadgeForm extends React.Component{
         console.log("Button was clicked");
     };
 
-    handleSubmit = e =>{
-      e.preventDefault();
-      console.log("Form was submitted");
-      //Leer los valores
-      console.log(this.state);
-    };
+     // handleSubmit = e =>{
+     //  e.preventDefault();
+     // console.log("Form was submitted");
+     //Leer los valores
+     // console.log(this.state);
+   // };
 
     //Convertirlos a controlados 
     //Va despegar cada uno de los input
     //This.state ---para leer el stado 
     //value={this.state.firstName} />    
 
-    render(){
+    render() {
         return (
             <div>
                 <h1>New Attendant</h1>
 
-                <form onSubmit={this.handleSubmit}>
+                <form onSubmit={this.props.onSubmit}>
                   <div className="form-group">
                     <label>First Name</label>
                     <input 
