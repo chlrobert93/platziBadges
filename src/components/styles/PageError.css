@@ -6,7 +6,7 @@ min-height: calc(100vh - 60px);
     to right bottom, 
   rgba(26, 167, 223, 0.8),
   rgba(129, 205, 224, 0.8)), 
-   url('../../images/InternalServerError.svg');
+   url('../../images/500-internal-server-error-animate.svg');
   background-size: auto;
   background-repeat: no-repeat;
   background-position: center;
