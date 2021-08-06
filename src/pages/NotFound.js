@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 function NotFound() {
     return (
 
-        <div className="robot">
+        <div className="dog">
              <div className="robot__text">
                 <p className="root__header">Error 404</p>
                 <p>página no encontrada</p>
