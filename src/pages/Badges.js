@@ -24,6 +24,7 @@ class Badges extends React.Component{
 componentDidMount () {
   this.fetchData()
 
+  //Cada sierto tiempo la función se va llamar
   this.interValId = setInterval(this.fetchData, 5000);
 };
 
