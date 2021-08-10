@@ -1,0 +1,40 @@
+.Modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5); 
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .Modal__container {
+    position: relative;
+    top: 10rem;
+    background: linear-gradient(to left, #00f260, #0575e6);
+    padding: 1rem;
+    width: 400px;
+    border-radius: 5px;
+  }
+  
+  .Modal__close-button {
+    color:  #000000;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: 0;
+    background: linear-gradient(to left, #f200d2f5, #0ab6eb);
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+  }
+
+  .btn-del{
+    margin-right: 9px;
+  }
+
+  .DeleteBadgeModal__parrafo{
+    font-weight: bold;
+  }
