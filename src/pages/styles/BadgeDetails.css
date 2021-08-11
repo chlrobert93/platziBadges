@@ -18,3 +18,8 @@
   justify-content: flex-end;
   margin-bottom: 1rem;
 }
+
+.BadgeDetails__count{
+  margin-top: 20px;
+  margin-left: 50%;
+}
