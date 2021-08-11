@@ -7,6 +7,14 @@
       "jobTitle": "Front End",
       "twitter": "Sin twitter",
       "id": 1
+    },
+    {
+      "firstName": "Robert",
+      "lastName": "Robert",
+      "email": "correo@correo.com",
+      "jobTitle": "Front end",
+      "twitter": "sin twiter",
+      "id": 2
     }
   ]
 }
