@@ -66,9 +66,10 @@ fetchData = async () =>{
                       </div>
                  </div>
 
+              <div className="Badges__container__element">
                 <div className="Badges__container">
                     <div className="Badges__buttons">
-                      <Link to="/Badges/new" className="btn btn-primary">
+                      <Link to="/Badges/new" className="btn btn-primary btn_newBadges">
                        New Badge                        
                       </Link> 
                     </div>
@@ -78,9 +79,9 @@ fetchData = async () =>{
                        <BadgesList badges={this.state.data} />
                        {this.state.loading && <MiniLoader />}                         
                        </div>
-                     </div>
-                   
+                     </div>                   
                 </div>
+              </div>
             </React.Fragment>
         );
     }

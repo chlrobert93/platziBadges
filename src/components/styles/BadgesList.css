@@ -1,5 +1,7 @@
 .BadgesList ul>li {
     margin-bottom: 1rem;
+    background-color: #00f260;
+
   }
   
   .BadgesListItem {
@@ -11,6 +13,7 @@
   }
   
   .BadgesListItem__avatar {
+    margin-top: px;
     border-radius: 50%;
     background: #a3a3a3;
     margin-right: 0.5rem;
@@ -25,23 +28,32 @@
   .BadList__container{
     border: 1px solid transparent;
     margin-bottom: 8px;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
+    box-shadow: 0 4px 8px 0 rgba(15, 157, 167, 0.863);
     padding: 8px;
     border-radius: 5px;
     display: flex;
-    background: linear-gradient(to left, #00f260, #0575e6);
+    background: linear-gradient(to left, #00f260, #0575e6); 
+    transition: transform .3s;
   }
+  .BadList__container:hover{
+    transform: translateY(-0.9px) scale(1.1);
+}
 
   .BadList__container__text{
      padding: 5px;
      border-radius: 6px;
      display: flex;
+     width:100%;
+    
 
   }
 
   .BadList__avatar{
     border-radius: 50%;
+    cursor: pointer;
+   
   }
+
 
   .BadList__container__info{
     margin-left: 20px;
@@ -58,10 +70,23 @@
 
   .twitter{
     /*color:rgb(29 161 242);*/
-    color:blue;
+    color:rgb(28, 22, 109);
+    font-weight: bold;
 
+  }
+
+  .jobtitle{
+    font-weight: bold;
   }
 
   .BadgesList__input{
     margin-bottom: 15px;
   }
+  
+
+  .badges__filter{  
+      text-transform: uppercase;
+      font-weight:bold;
+      margin-left: 40%;
+      color: #fff;
+    }

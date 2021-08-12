@@ -32,9 +32,8 @@ function BadgesList (props){
         if(filterdBadges.length === 0){
            return (
              <div>
-               <div className="form-sgroup">
-                 <label>Filter Bages</label>
-
+               <div className="form-group ">
+                   <label className="badges__filter">Filter </label>
                  <input
                    type="text"
                    className="form-control BadgesList__input"
@@ -55,7 +54,7 @@ function BadgesList (props){
         return(
             <div className="BadgesList">
              <div className="form-sgroup">
-                 <label>Filter Bages</label>
+                 <label className="badges__filter">Filter Bages</label>
 
                  <input type="text" className="form-control BadgesList__input" 
                   value={query}
@@ -80,14 +79,12 @@ function BadgesList (props){
                             </div>
                             <div className="BadList__container__info">
                                 <p className="BadList__name">
-                                    <FontAwesomeIcon icon={faUserTie} />
-                                    {badge.firstName} 
-                                    {badge.lastName}
-                                </p> 
+                                    <FontAwesomeIcon icon={faUserTie} />    {badge.firstName}     {badge.lastName}                                                    
+                                </p>                    
                                 <p  className="twitter">
                                     <FontAwesomeIcon icon={faTwitter} /> @{badge.twitter}
                                 </p>
-                                <p>
+                                <p className="jobtitle">
                                     {badge.jobTitle}
                                 </p>  
                             </div>

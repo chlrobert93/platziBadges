@@ -1,9 +1,9 @@
 .Badges__hero {
   width: 100%;
   padding: 2rem 0;
-  background: url('../../images/stars.svg'), #1B1B25;
+  background: url('../../images/stars.svg'), #0d093d;;
   background-repeat: repeat;
-  margin-bottom: 1rem;
+ 
   
 }
 
@@ -19,9 +19,20 @@
   max-width: 580px;
   margin: 0 auto;
   padding: 0 1rem;
-  
 }
+.Badges__container__element{
+  /*background: linear-gradient(to right, #00b4db, #0083b0);  W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  /*background: linear-gradient(to right, #009fff, #ec2f4b);  W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  /* background: linear-gradient(to right, #ff0084, #33001b); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-color: #ff0084;
+  /*background: linear-gradient(to right, #ff0099, #493240);  W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  /*background: linear-gradient(to right, #cc2b5e, #753a88);  W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ /* background: linear-gradient(to right, #ee0979, #ff6a00);  W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
+  width: 100%; 
+  height:100%;
+
+}
 .Badges_conf-logo {
   margin-bottom: 2rem;
 }
@@ -30,4 +41,12 @@
   display: flex;
   justify-content: flex-end;
   margin-bottom: 1rem;
+}
+
+.btn_newBadges{
+margin-top: 2rem;
+}
+.Badges__list{
+  margin-bottom: 0;
+  padding: 0%;
 }
