@@ -10,8 +10,8 @@ function PageError (props) {
         <div className="dog">
             <div className="dog__text">
             <p className="dog__header">{props.error.message}</p>
-            <p>página no encontrada</p>
-            <Link to="/" className="btn btn-primary">
+            <p className="root__header__pa">página no encontrada</p>
+            <Link to="/" className="btn btn-primary btn-regresar">
                     Regresar                        
             </Link> 
             </div>
