@@ -13,12 +13,12 @@
   }
   
   .BadgesListItem__avatar {
-    margin-top: px;
-    border-radius: 50%;
-    background: #a3a3a3;
-    margin-right: 0.5rem;
-    width: 80px;
-    height: 80px;
+      margin-top: 4px;
+      border-radius: 50%;
+      background: #a3a3a3;
+      margin-right: 0.5rem;
+      width: 80px;
+      height: 80px;
   }
 
 
@@ -88,5 +88,6 @@
       text-transform: uppercase;
       font-weight:bold;
       margin-left: 40%;
-      color: #fff;
+      color: rgb(0, 166, 231);
+      margin-bottom: 5px;
     }

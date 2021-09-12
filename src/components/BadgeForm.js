@@ -1,4 +1,5 @@
  import React from 'react';
+ import "./styles/BadgesForm.css";
 
 class BadgeForm extends React.Component{
     //state = {};
